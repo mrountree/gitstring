@@ -1,0 +1,28 @@
+##Crayon
+# puts "what is your favorite crayon color?"
+# fav_crayon = gets.chomp
+# puts fav_crayon.reverse.upcase
+# ends
+# ###mood
+# puts "what is your mood today?"
+# mood = gets.chomp
+# puts "meow" + mood.length.to_s
+# ends
+# #numbers
+# puts "give me a number"
+# number1 = gets.chomp.to_i
+# puts "give me another number"
+# number2 = gets.chomp.to_i
+# number1 + number2
+# ###
+# puts "give me a sentence"
+# sentence = gets.chomp
+# puts "what is your favorite word?"
+# favorite = gets.chomp
+###Planets
+puts "how old are you"
+age_years = gets.chomp.to_f
+age_seconds = age_years * 32000000
+put age_seconds
+age_mercury = age_years * 365/87.97
+puts "You are" +age_mercury.round(2).to_s + "years old on Mercury"
